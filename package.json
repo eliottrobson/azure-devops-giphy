@@ -1,0 +1,34 @@
+{
+  "name": "azure-devops-giphy",
+  "version": "1.0.0",
+  "description": "Adding /giphy support to Azure DevOps",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eliottrobson/azure-devops-giphy.git"
+  },
+  "author": "Eliott Robson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eliottrobson/azure-devops-giphy/issues"
+  },
+  "homepage": "https://github.com/eliottrobson/azure-devops-giphy#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "copy-webpack-plugin": "^8.1.1",
+    "css-loader": "^5.2.4",
+    "postcss": "^8.2.14",
+    "postcss-loader": "^5.2.0",
+    "style-loader": "^2.0.0",
+    "tailwindcss": "^2.1.2",
+    "ts-loader": "^9.1.2",
+    "typescript": "^4.2.4",
+    "webpack-cli": "^4.7.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
